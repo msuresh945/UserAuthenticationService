@@ -8,10 +8,9 @@ import java.util.List;
 @Getter
 @Setter
 public class User extends BaseModel{
-    private String firstname;
-    private String lastname;
-    private String email;
+
+    private String emailId;
     private String password;
-    private List<Session> sessions;
+
 
 }

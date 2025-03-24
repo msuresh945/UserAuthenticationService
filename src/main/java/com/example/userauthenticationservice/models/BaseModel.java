@@ -11,4 +11,5 @@ public abstract class BaseModel {
     private Long id;
     private Date createdDate;
     private Date updatedDate;
+    private State state;
 }
